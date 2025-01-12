@@ -6,8 +6,8 @@ export const models: Models = {
         endpoint: settings.OPENAI_API_URL || "https://api.openai.com/v1",
         settings: {
             stop: [],
-            maxInputTokens: 128000,
-            maxOutputTokens: 8192,
+            maxInputTokens: 4096,
+            maxOutputTokens: 1024,
             frequency_penalty: 0.0,
             presence_penalty: 0.0,
             temperature: 0.6,
